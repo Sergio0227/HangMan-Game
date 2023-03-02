@@ -96,6 +96,7 @@ public class Hangman {
                 System.out.print(gallows[numberOfMisses]);
                 if (numberOfMisses == 6) {
                     System.out.println("You lost");
+                    System.out.println("The correct word was: " + word);
                     System.exit(0);
                 }
             } else {
