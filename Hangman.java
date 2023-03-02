@@ -80,7 +80,7 @@ public class Hangman {
         for (int i = 0; i < placeholders.length; i++) {
             placeholders[i] = '_';
         }
-        System.out.print(word);
+        
         System.out.print(gallows[0]);
         for (int i = 0;; i++) {
 
